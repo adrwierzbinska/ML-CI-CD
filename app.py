@@ -6,9 +6,9 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 import os
 
-API_KEY = os.environ.get("API_KEY") # Pobranie klucza API z zmiennych środowiskowych
-if not API_KEY:
-    raise ValueError("Brak zdefiniowanej zmiennej API_KEY")
+API_KEY = os.environ.get("API_KEY", "klucz_API") # Pobranie klucza API z zmiennych środowiskowych
+# if not API_KEY:
+#     raise ValueError("Brak zdefiniowanej zmiennej API_KEY")
 
 app = FastAPI(title="Lab 03")
 
