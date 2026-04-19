@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/${{ github.repository }}/ml-api:latest
+        tags: ghcr.io/adrwierzbinska/ml-ci-cd/ml-api:latest
