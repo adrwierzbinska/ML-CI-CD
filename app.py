@@ -10,7 +10,7 @@ API_KEY = os.environ.get("API_KEY", "klucz_API") # Pobranie klucza API z zmienny
 # if not API_KEY:
 #     raise ValueError("Brak zdefiniowanej zmiennej API_KEY")
 
-app = FastAPI(title="Lab 03")
+app = FastAPI(title="Lab 06")
 
 # sztuczne dane: [wiek, zarobki w tys.], kategoria (0 lub 1) 
 X_all = np.array([
